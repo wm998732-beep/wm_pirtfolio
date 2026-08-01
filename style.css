@@ -860,3 +860,59 @@ footer p{
     display:block;
     border-radius:18px;
 }
+/* Responsive للموبايل */
+@media (max-width: 768px) {
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-image img,
+    .hero-img img,
+    .profile-img {
+        width: 260px;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .buttons a {
+        width: 100%;
+        text-align: center;
+    }
+}
+/* للموبايل فقط */
+@media (max-width: 768px) {
+
+    .image-frame {
+        width: 220px;
+        height: 260px;
+        margin: 20px auto;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
