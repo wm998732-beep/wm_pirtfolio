@@ -916,3 +916,48 @@ footer p{
     }
 
 }
+/* ================== Mobile ================== */
+
+@media (max-width: 768px){
+
+    .hero-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .image-frame{
+        width: 220px;
+        height: 260px;
+        margin: 0 auto;
+    }
+
+    .profile-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-content h1{
+        font-size: 40px;
+    }
+
+    .hero-content p{
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .hero-buttons{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
